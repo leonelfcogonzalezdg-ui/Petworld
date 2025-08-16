@@ -1,0 +1,183 @@
+/* CSS Document */
+.Logo {width: 140px}
+
+#contenedor {background: #434343;
+width: 900px;
+margin: auto;
+height: auto;
+overflow: hidden}
+
+header {background:#86D79C;
+height: 120px;position: fixed;
+z-index: 2;
+padding-right: 25px}
+
+#menu a:link{color: white}
+#menu a:visited{color:white}
+#menu a:hover{background: #46A270}
+#menu a{font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+font-weight:bold;
+font-size: 20px;
+margin-left: 25px;
+text-decoration: none;
+display: inline-block;
+vertical-align: middle;
+margin-top: 15px;
+padding: 20px;}
+
+#articulo1{background:#6F6661;
+height: 650px;}
+
+.slider1 {width: 835px}
+.slider2 {width: 835px}
+.slider3 {width: 835px}
+.slider4 {width: 835px}
+
+ul {list-style: none;
+display: flex;
+animation: slide 20s infinite alternate;}
+
+@Keyframes slide {
+0% {margin-left: 0px;}
+20% {margin-left: 0px}
+	
+25% {margin-left: -835px}
+45% {margin-left: -835px}
+	
+50% {margin-left: -1700px}
+70% {margin-left: -1700px}
+	
+75% {margin-left: -2400px}
+190% {margin-left: -2400px}
+}
+
+#articulo2{background:#86D79C;
+height: 920px;}
+
+.Servicios {text-align: center;
+margin-top: -20px;
+font-size: 40px;
+padding: 30px;
+border: 5px solid #F0F8FF; 
+width: 500px;
+padding-left: 150px ;
+color: aliceblue;
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
+
+.littledog {width: 350px;
+position: relative;
+left: 520px;
+top: -550px}
+
+.tituloarticulo2 {font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+padding-left: 40px;
+color:#2D4E3C}
+
+.Textoarticulo2 {font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-style: italic;
+	color: aliceblue;
+	padding-left: 10px;
+	padding-bottom: -35px;}
+
+#articulo3{background:#AD6AF7;
+height: 650px;}
+
+.Nosotros {text-align: center;
+margin-top: -20px;
+font-size: 40px;
+padding: 30px;
+border: 5px solid #F0F8FF; 
+width: 500px;
+padding-left: 150px ;
+color: aliceblue;
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
+
+.Comida {width: 200px;
+position:relative;
+left: 340px;}
+
+.text1 {text-align: center;
+margin-top: 17px;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; 
+font-weight: bold;
+font-size: 20px}
+
+.Hotel {width: 160px;
+position:relative;
+left: 95px;
+top: -220px;}
+
+.text2 {text-align: center;
+margin-top: -208px;
+margin-left: -550px;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; font-weight: bold;
+font-size: 20px}
+
+.Medicina {width: 160px;
+position:relative;
+left: 630px;
+top: -220px;}
+
+.text3 {text-align: center;
+margin-top: -205px;
+margin-left: 550px;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+font-weight: bold;
+font-size: 20px}
+
+.gato {width: 150px;
+animation-name: meow;
+animation-duration: 4s;
+position: relative;
+animation-iteration-count: infinite;}
+
+@keyframes meow {
+	0%{margin-left: 0px}
+	25%{margin-left: 370px}
+	50%{margin-left: 750px}
+	75%{margin-left: 370px}
+	100%{margin-left: 0px}
+}
+
+#articulo4{background:#787AD9;
+height: 650px;}
+
+.ubicacion {width: 340px;
+height: 200px;
+position: relative;
+top: 1px;
+padding-left: 10px;}
+
+.textoubi {margin-top: -150px ;
+margin-left: 400px ;
+font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+font-style: italic;
+color: antiquewhite;
+font-weight: bold}
+
+.videoyt {position: relative;
+left: 540px;
+top: 100px;
+width: 340px;
+height: 170px;}
+
+.textovideo {margin-left: 200px;
+font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+font-style: italic;
+color: antiquewhite;
+font-weight: bold}
+
+footer {background:#46474B;
+position: fixed;
+width: 900px;
+height: 100px;
+bottom: 0px;}
+
+.imgpie {width: 55px;}
+.X {width: 35px}
+.X {width: 35px}
+.X {width: 35px}
+.X {width: 35px}
+
+.audio {position: relative;
+top: 200px}
